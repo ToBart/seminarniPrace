@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="steamSeminarka.xsl"?>
+<steamApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="steamSeminarka.xsd">
+  <steam_accounts>
+    <account id="STEAM_0:2:1564546212">
+      <first_name>Toby</first_name>
+      <last_name>Haynes</last_name>
+      <sex>male</sex>
+      <birthdate>23.3.1986</birthdate>
+      <account_name>RedFlash</account_name>
+      <email>Haynes2531@gmail.com</email>
+      <mobile_number>+1-613-555-0110</mobile_number>
+      <country>Canada</country>
+      <account_level>26</account_level>
+      <games_owned>123</games_owned>
+      <items_owned>1562</items_owned>
+      <friends>72</friends>
+      <member_since>4.9.2003</member_since>
+      <VAC_ban>no</VAC_ban>
+      <trade_ban>no</trade_ban>
+      <community_ID>156548498181564484684</community_ID>
+      <steam_URL>http://steamid.com/profile/156548498181564484684</steam_URL>
+    </account>
+    <account id="STEAM_0:4:11546786212">
+      <first_name>Megan</first_name>
+      <last_name>Erickson</last_name>
+      <sex>female</sex>
+      <birthdate>1.10.1999</birthdate>
+      <account_name>Flowerless</account_name>
+      <email>flowerMegan@hotmail.com</email>
+      <mobile_number>+46-771-795-336</mobile_number>
+      <country>Sweden</country>
+      <account_level>15</account_level>
+      <games_owned>26</games_owned>
+      <items_owned>297</items_owned>
+      <friends>12</friends>
+      <member_since>20.11.2005</member_since>
+      <VAC_ban>no</VAC_ban>
+      <trade_ban>no</trade_ban>
+      <community_ID>56189484122445254184</community_ID>
+      <steam_URL>http://steamid.com/profile/56189484122445254184</steam_URL>
+    </account>
+    <account id="STEAM_1:1:113858419">
+      <first_name>Sandy</first_name>
+      <last_name>Johnson</last_name>
+      <sex>male</sex>
+      <birthdate>16.5.1992</birthdate>
+      <account_name>Raptor1605</account_name>
+      <email>raptor66@gmail.com</email>
+      <mobile_number>+7-156-362-333</mobile_number>
+      <country>Russia</country>
+      <account_level>36</account_level>
+      <games_owned>41</games_owned>
+      <items_owned>2526</items_owned>
+      <friends>267</friends>
+      <member_since>4.7.2004</member_since>
+      <VAC_ban>no</VAC_ban>
+      <trade_ban until="10.5.2017">yes</trade_ban>
+      <community_ID>63548948949848949849898</community_ID>
+      <steam_URL>http://steamid.com/profile/63548948949848949849898</steam_URL>
+    </account>
+    <account id="STEAM_4:1:118495841978">
+      <first_name>Christian</first_name>
+      <last_name>Williams</last_name>
+      <sex>male</sex>
+      <birthdate>6.12.1996</birthdate>
+      <account_name>localhost</account_name>
+      <email>chrisWll@gmail.com</email>
+      <mobile_number>+1-202-555-0135</mobile_number>
+      <country state="Florida">United States</country>
+      <account_level>124</account_level>
+      <games_owned>854</games_owned>
+      <items_owned>2963</items_owned>
+      <friends>436</friends>
+      <member_since>5.8.2006</member_since>
+      <VAC_ban>no</VAC_ban>
+      <trade_ban>no</trade_ban>
+      <community_ID>24941819815156163</community_ID>
+      <steam_URL>http://steamid.com/profile/24941819815156163</steam_URL>
+    </account>
+    <account id="STEAM_0:1:489498564654">
+      <first_name>Stacy</first_name>
+      <last_name>Green</last_name>
+      <sex>female</sex>
+      <birthdate>18.1.1991</birthdate>
+      <account_name>sweetdonut</account_name>
+      <email>stacy.green@gmail.com</email>
+      <mobile_number>+1-236-475-0785</mobile_number>
+      <country state="Ohio">United States</country>
+      <account_level>5</account_level>
+      <games_owned>16</games_owned>
+      <items_owned>96</items_owned>
+      <friends>12</friends>
+      <member_since>19.10.2010</member_since>
+      <VAC_ban>no</VAC_ban>
+      <trade_ban>no</trade_ban>
+      <community_ID>4994846515665489498</community_ID>
+      <steam_URL>http://steamid.com/profile/4994846515665489498</steam_URL>
+    </account>
+  </steam_accounts>
+  <games>
+    <game>
+      <name>Tomb Raider</name>
+      <genre>Action</genre>
+      <price currency="euro">19.99</price>
+      <languages>
+        <English type="interface/audio">Yes</English>
+        <German type="interface/audio">Yes</German>
+        <French type="interface/audio">Yes</French>
+        <Russian type="interface/audio">Yes</Russian>
+        <Czech type="interface/audio">Yes</Czech>
+        <Korean type="interface">Yes</Korean>
+      </languages>
+      <number_of_DLC>2</number_of_DLC>
+      <ratings range="1-5">4</ratings>
+      <copies_sold>4,590,389</copies_sold>
+      <discount>0</discount>
+      <sale_price>19.99</sale_price>
+    </game>
+    <game>
+      <name>Steep</name>
+      <genre>Sport</genre>
+      <price currency="euro">59.99</price>
+      <languages>
+        <English type="interface/audio">Yes</English>
+        <German type="interface/audio">Yes</German>
+        <French type="interface/audio">Yes</French>
+        <Russian type="interface/audio">Yes</Russian>
+        <Czech>No</Czech>
+        <Korean>No</Korean>
+      </languages>
+      <number_of_DLC>3</number_of_DLC>
+      <ratings range="1-5">3</ratings>
+      <copies_sold>101,643</copies_sold>
+      <discount>0</discount>
+      <sale_price>59.99</sale_price>
+    </game> 
+    <game>
+      <name>S.T.A.L.K.E.R.: Call of Pripyat</name>
+      <genre>Action</genre>
+      <price currency="euro">19.99</price>
+      <languages>
+        <English type="interface">Yes</English>
+        <German type="interface">Yes</German>
+        <French type="interface">Yes</French>
+        <Russian type="interface">Yes</Russian>
+        <Czech>No</Czech>
+        <Korean>No</Korean>
+      </languages>
+      <number_of_DLC>0</number_of_DLC>
+      <ratings range="1-5">4</ratings>
+      <copies_sold>878,545</copies_sold>
+      <discount>70</discount>
+      <sale_price>5.99</sale_price>
+    </game>
+    <game>
+      <name>Fallout 4</name>
+      <genre>RPG</genre>
+      <price currency="euro">59.99</price>
+      <languages>
+        <English type="interface/audio">Yes</English>
+        <German type="interface/audio">Yes</German>
+        <French type="interface/audio">Yes</French>
+        <Russian type="interface">Yes</Russian>
+        <Czech>No</Czech>
+        <Korean>No</Korean>
+      </languages>
+      <number_of_DLC>3</number_of_DLC>
+      <ratings range="1-5">4</ratings>
+      <copies_sold>4,169,186</copies_sold>
+      <discount>0</discount>
+      <sale_price>59.99</sale_price>
+    </game> 
+    <game>
+      <name>Terraria</name>
+      <genre>Indie</genre>
+      <price currency="euro">9.99</price>
+      <languages>
+        <English type="interface">Yes</English>
+        <German type="interface">Yes</German>
+        <French type="interface">Yes</French>
+        <Russian>No</Russian>
+        <Czech>No</Czech>
+        <Korean>No</Korean>
+      </languages>
+      <number_of_DLC>0</number_of_DLC>
+      <ratings range="1-5">5</ratings>
+      <copies_sold>8,386,267</copies_sold>
+      <discount>40</discount>
+      <sale_price>5.99</sale_price>
+    </game>
+    <game>
+      <name>Dota 2</name>
+      <genre>Free to play</genre>
+      <price currency="euro">0</price>
+      <languages>
+        <English type="interface/audio">Yes</English>
+        <German type="interface">Yes</German>
+        <French type="interface">Yes</French>
+        <Russian type="interface/audio">Yes</Russian>
+        <Czech type="interface">Yes</Czech>
+        <Korean type="interface/audio">Yes</Korean>
+      </languages>
+      <number_of_DLC>0</number_of_DLC>
+      <ratings range="1-5">4</ratings>
+      <copies_sold>99,115,645</copies_sold>
+      <discount>0</discount>
+      <sale_price>0</sale_price>
+    </game>
+    <game>
+      <name>Din't Starve</name>
+      <genre>Indie</genre>
+      <price currency="euro">14.99</price>
+      <languages>
+        <English type="interface/audio">Yes</English>
+        <German>No</German>
+        <French>No</French>
+        <Russian>No</Russian>
+        <Czech>No</Czech>
+        <Korean>No</Korean>
+      </languages>
+      <number_of_DLC>3</number_of_DLC>
+      <ratings range="1-5">4</ratings>
+      <copies_sold>4,021,492</copies_sold>
+      <discount>0</discount>
+      <sale_price>14.99</sale_price>
+    </game>      
+  </games>
+  <steam_HW>
+  <steam_machines>
+    <steam_machine>
+      <name>Maingear Drift</name>
+      <company>Maingear</company>
+      <price>1,099.99</price>
+      <specs>
+        <cpu>intel i7 5960X</cpu>
+        <memory>DDR4-2666 up to 32GB</memory>
+        <hdd>SSD Samsung 850 Pro</hdd>
+        <gpu>Nvidia Titan X 12GB</gpu>
+      </specs>
+    </steam_machine>
+    <steam_machine>
+      <name>Alienware Steam machine</name>
+      <company>Alienware</company>
+      <price>coming soon</price>
+      <specs>
+        <cpu>intel i7 Quad-core</cpu>
+        <memory>DDR3L-1600 8GB</memory>
+        <hdd>2TB HDD</hdd>
+        <gpu>Nvidia Geforce GTX 2GB GDDR5</gpu>
+      </specs>
+    </steam_machine>
+    <steam_machine>
+      <name>Zotac NEN Steam Machine</name>
+      <company>Zotac</company>
+      <price>coming soon</price>
+      <specs>
+        <cpu>intel i5 6400T Quad-core</cpu>
+        <memory>4 GB DDR3</memory>
+        <hdd>up to 2TB HDD</hdd>
+        <gpu>Nvidia Geforce GTX 960</gpu>
+      </specs>
+    </steam_machine>
+   </steam_machines>
+   <steam_controller>
+   <company>Valve</company>
+    <cont_price>54,99</cont_price>
+    <in_box>
+      <controller>Yes</controller>
+      <batteries>Yes</batteries>
+      <USB_cable>Yes</USB_cable>
+      <USB_dongle>Yes</USB_dongle>
+      <case>No</case>
+      <battery_pack>No</battery_pack>
+    </in_box>
+   </steam_controller>
+   <steam_link>
+    <price>54,99</price>
+    <company>Valve</company>
+    <specs>
+       <resolution>1080p/60 fps</resolution>
+       <network>100Mbit ethernet</network>
+       <network_wireless>802.11ac</network_wireless>
+       <ports>3x USB 2.0</ports>
+       <bluetooth>4.0</bluetooth>
+       <video_out>HDMI</video_out>
+    </specs>
+   </steam_link>
+  </steam_HW>
+</steamApp>

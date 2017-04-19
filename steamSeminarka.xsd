@@ -1,0 +1,222 @@
+﻿<?xml version="1.0"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="steamApp">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="steam_accounts">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="account" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="first_name"/>
+                    <xs:element type="xs:string" name="last_name"/>
+                    <xs:element type="xs:string" name="sex"/>
+                    <xs:element type="xs:string" name="birthdate"/>
+                    <xs:element type="xs:string" name="account_name"/>
+                    <xs:element type="xs:string" name="email"/>
+                    <xs:element type="xs:string" name="mobile_number"/>
+                    <xs:element name="country">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="state" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:byte" name="account_level"/>
+                    <xs:element type="xs:short" name="games_owned"/>
+                    <xs:element type="xs:short" name="items_owned"/>
+                    <xs:element type="xs:short" name="friends"/>
+                    <xs:element type="xs:string" name="member_since"/>
+                    <xs:element type="xs:string" name="VAC_ban"/>
+                    <xs:element name="trade_ban">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="until" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:integer" name="community_ID"/>
+                    <xs:element type="xs:anyURI" name="steam_URL"/>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="id" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="games">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="game" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="name"/>
+                    <xs:element type="xs:string" name="genre"/>
+                    <xs:element name="price">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:float">
+                            <xs:attribute type="xs:string" name="currency" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="languages">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="English">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute type="xs:string" name="type" use="optional"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="German">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute type="xs:string" name="type" use="optional"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="French">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute type="xs:string" name="type" use="optional"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="Russian">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute type="xs:string" name="type" use="optional"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="Czech">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute type="xs:string" name="type" use="optional"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="Korean">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute type="xs:string" name="type" use="optional"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:byte" name="number_of_DLC"/>
+                    <xs:element name="ratings">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:byte">
+                            <xs:attribute type="xs:string" name="range" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="copies_sold"/>
+                    <xs:element type="xs:byte" name="discount"/>
+                    <xs:element type="xs:float" name="sale_price"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="steam_HW">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="steam_machines">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="steam_machine" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="name"/>
+                          <xs:element type="xs:string" name="company"/>
+                          <xs:element type="xs:string" name="price"/>
+                          <xs:element name="specs">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="cpu"/>
+                                <xs:element type="xs:string" name="memory"/>
+                                <xs:element type="xs:string" name="hdd"/>
+                                <xs:element type="xs:string" name="gpu"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="steam_controller">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="company"/>
+                    <xs:element type="xs:string" name="cont_price"/>
+                    <xs:element name="in_box">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="controller"/>
+                          <xs:element type="xs:string" name="batteries"/>
+                          <xs:element type="xs:string" name="USB_cable"/>
+                          <xs:element type="xs:string" name="USB_dongle"/>
+                          <xs:element type="xs:string" name="case"/>
+                          <xs:element type="xs:string" name="battery_pack"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="steam_link">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="price"/>
+                    <xs:element type="xs:string" name="company"/>
+                    <xs:element name="specs">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="resolution"/>
+                          <xs:element type="xs:string" name="network"/>
+                          <xs:element type="xs:string" name="network_wireless"/>
+                          <xs:element type="xs:string" name="ports"/>
+                          <xs:element type="xs:float" name="bluetooth"/>
+                          <xs:element type="xs:string" name="video_out"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
